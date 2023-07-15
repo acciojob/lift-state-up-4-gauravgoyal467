@@ -9,8 +9,9 @@ const Child = ({cartItems,setCartItems}) => {
   }
    
   return (
+    <>
+    <h2>Child Component</h2> 
     <div className="child">
-        <h2>Child Component</h2>  
         <ul>
         {cartItems &&
           cartItems.map((element,index)=>{
@@ -23,6 +24,8 @@ const Child = ({cartItems,setCartItems}) => {
         }
         </ul>
     </div>
+    </>
+        
   )
 }
 
