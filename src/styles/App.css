@@ -1,3 +1,16 @@
+.parent{
+    background-color:#73FF00;
+    padding:20px 15px ;
+  
+  }
+  .child{
+    background-color: #C96219;
+    padding:10px 10px ;
+    margin-top:10px;
+  }
+  input{
+    padding:10px;
+  }
 .child li{
     padding:5px;
 }
