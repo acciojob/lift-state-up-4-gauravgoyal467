@@ -25,7 +25,7 @@ const Parent = () => {
       <input id="itemName" type="text" value={item} onChange={(e)=>setItem(e.target.value.trim())} />
       <label htmlFor="itemPrice"> Item Price:</label>
       <input id="itemPrice" type="number" value={price} onChange={(e)=>setPrice(e.target.value.trim())}/>
-      <button onClick={addCart}>Add item</button>
+      <button onClick={addCart}>Add Item</button>
       <Child cartItems={cartItems} setCartItems={setCartItems}/>
     </div>
   )
